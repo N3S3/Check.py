@@ -33,7 +33,7 @@ layout = [[sg.Text('Enter the original Hash here:'), sg.Text(size=(64,1), key='H
           [sg.Button('Compare')], 
           [sg.Text(size=(64,1), key='-OUTPUT-')],
           [sg.Button('Exit')]
-          ]
+         ]
 
 window = sg.Window('PyCheck', layout)
 while True:  # Event Loop
