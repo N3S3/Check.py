@@ -26,7 +26,8 @@ import PySimpleGUI as sg
 
 sg.theme('LightBlue2')
 
-layout = [[sg.Text('Enter the original Hash here:'), sg.Text(size=(64,1), key='Hash1')],
+layout = [
+          [sg.Text('Enter the original Hash here:'), sg.Text(size=(64,1), key='Hash1')],
           [sg.Input(key='#1')],
           [sg.Text('Enter the calculated Hash below: '), sg.Text(size=(64,1), key='Hash2')],
           [sg.Input(key='#2')],
